@@ -9,15 +9,14 @@
             <table>
               <tr>
                 <td><b>Colocação:</b></td>
-                <td><span class="label label-success">12º lugar</span><br></td>
+                <td><span class="label label-warning">12º lugar</span><br></td>
               </tr>
               <tr>
                 <td><b>Nota Média:</b></td>
-                <td><span class="label label-success">8,34</span><br></td>
+                <td><span class="label label-warning">8,34</span><br></td>
               </tr>
             </table>
-             
-             
+                        
             <b>Critérios Escolhidos:</b>Nota, Estrutura e Nível dos Discentes<br><br>
             <button class="btn btn-small  mapa">Visualizar no Mapa</button>
            
@@ -28,8 +27,8 @@
 
 
 
-<div class="container-narrow">
-   <div class="span12">
+
+  
       <div id="mapa"></div>
         <script>
         var x=document.getElementById("mapa");
@@ -44,7 +43,7 @@
         function showPosition(position)
           {
 
-          x.innerHTML='<iframe width="900" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=loc:'+position.coords.latitude+','+ position.coords.longitude +'&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll='+position.coords.latitude+','+position.coords.longitude+'&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?q=loc:'+position.coords.latitude+','+ position.coords.longitude +'&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll='+position.coords.latitude+','+ position.coords.longitude +'&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>';
+          x.innerHTML='<iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=loc:'+position.coords.latitude+','+ position.coords.longitude +'&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll='+position.coords.latitude+','+position.coords.longitude+'&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?q=loc:'+position.coords.latitude+','+ position.coords.longitude +'&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll='+position.coords.latitude+','+ position.coords.longitude +'&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>';
           
         //alert("Latitude: " + position.coords.latitude+"Longitude: " + position.coords.longitude);
         //x.innerHTML="Latitude: " + position.coords.latitude + 
@@ -53,7 +52,8 @@
             window.addEventListener("load",getLocation,true);
 
         </script> 
-   </div>
+  
+   <div class="container-narrow">
  <div class="span12 tabs">
     <div class="tabContainer" >
         <ul class="nav nav-tabs digiTabs" id="sidebarTabs">
