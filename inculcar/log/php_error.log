@@ -1,0 +1,66 @@
+[17-Nov-2013 22:40:54] PHP Warning:  parse_ini_file(view/config.ini) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/incul892/public_html/control/Controlador.php on line 163
+[17-Nov-2013 22:40:54] PHP Warning:  parse_ini_file(view/config.ini) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/incul892/public_html/control/Controlador.php on line 180
+[17-Nov-2013 22:40:54] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[17-Nov-2013 22:40:57] PHP Warning:  parse_ini_file(view/config.ini) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/incul892/public_html/control/Controlador.php on line 163
+[17-Nov-2013 22:40:57] PHP Warning:  parse_ini_file(view/config.ini) [<a href='function.parse-ini-file'>function.parse-ini-file</a>]: failed to open stream: No such file or directory in /home/incul892/public_html/control/Controlador.php on line 180
+[17-Nov-2013 22:40:57] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[17-Nov-2013 22:42:16] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/incul892/public_html/model/Conexcao.php:15
+Stack trace:
+#0 /home/incul892/public_html/model/Conexcao.php(15): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/incul892/public_html/control/Principal.php(38): Conexcao->__construct('localhost', 'dadosAbertos', 'root', '')
+#2 /home/incul892/public_html/control/Principal.php(28): Principal->geraPagina()
+#3 /home/incul892/public_html/control/Controlador.php(182): Principal->__construct('localhost', 'dadosAbertos', 'root', '', '')
+#4 /home/incul892/public_html/index.php(14): Controlador::executarController('default', 'localhost', 'dadosAbertos', 'root', '', '')
+#5 {main}
+  thrown in /home/incul892/public_html/model/Conexcao.php on line 15
+[18-Nov-2013 01:14:51] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/incul892/public_html/model/Conexcao.php:15
+Stack trace:
+#0 /home/incul892/public_html/model/Conexcao.php(15): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/incul892/public_html/control/Principal.php(38): Conexcao->__construct('localhost', 'dadosAbertos', 'root', '')
+#2 /home/incul892/public_html/control/Principal.php(28): Principal->geraPagina()
+#3 /home/incul892/public_html/control/Controlador.php(182): Principal->__construct('localhost', 'dadosAbertos', 'root', '', '')
+#4 /home/incul892/public_html/index.php(14): Controlador::executarController('default', 'localhost', 'dadosAbertos', 'root', '', '')
+#5 {main}
+  thrown in /home/incul892/public_html/model/Conexcao.php on line 15
+[18-Nov-2013 01:15:30] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'incul892_root'@'108.179.216.112' (using password: YES)' in /home/incul892/public_html/model/Conexcao.php:15
+Stack trace:
+#0 /home/incul892/public_html/model/Conexcao.php(15): PDO->__construct('mysql:host=incu...', 'incul892_root', 'incul892_inculc...', Array)
+#1 /home/incul892/public_html/control/Principal.php(38): Conexcao->__construct('inculcar.com.br', 'incul892_inculc...', 'incul892_root', 'incul892_inculc...')
+#2 /home/incul892/public_html/control/Principal.php(28): Principal->geraPagina()
+#3 /home/incul892/public_html/control/Controlador.php(182): Principal->__construct('inculcar.com.br', 'incul892_inculc...', 'incul892_root', 'incul892_inculc...', '')
+#4 /home/incul892/public_html/index.php(14): Controlador::executarController('default', 'inculcar.com.br', 'incul892_inculc...', 'incul892_root', 'incul892_inculc...', '')
+#5 {main}
+  thrown in /home/incul892/public_html/model/Conexcao.php on line 15
+[18-Nov-2013 01:17:45] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/incul892/public_html/model/Conexcao.php:15
+Stack trace:
+#0 /home/incul892/public_html/model/Conexcao.php(15): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/incul892/public_html/control/Principal.php(38): Conexcao->__construct('localhost', 'dadosAbertos', 'root', '')
+#2 /home/incul892/public_html/control/Principal.php(28): Principal->geraPagina()
+#3 /home/incul892/public_html/control/Controlador.php(182): Principal->__construct('localhost', 'dadosAbertos', 'root', '', '')
+#4 /home/incul892/public_html/index.php(14): Controlador::executarController('default', 'localhost', 'dadosAbertos', 'root', '', '')
+#5 {main}
+  thrown in /home/incul892/public_html/model/Conexcao.php on line 15
+[18-Nov-2013 01:19:58] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[28000] [1045] Access denied for user 'incul892_root'@'108.179.216.112' (using password: YES)' in /home/incul892/public_html/model/Conexcao.php:15
+Stack trace:
+#0 /home/incul892/public_html/model/Conexcao.php(15): PDO->__construct('mysql:host=incu...', 'incul892_root', 'incul892_inculc...', Array)
+#1 /home/incul892/public_html/control/Principal.php(38): Conexcao->__construct('inculcar.com.br', 'incul892_inculc...', 'incul892_root', 'incul892_inculc...')
+#2 /home/incul892/public_html/control/Principal.php(28): Principal->geraPagina()
+#3 /home/incul892/public_html/control/Controlador.php(182): Principal->__construct('inculcar.com.br', 'incul892_inculc...', 'incul892_root', 'incul892_inculc...', '')
+#4 /home/incul892/public_html/index.php(14): Controlador::executarController('default', 'inculcar.com.br', 'incul892_inculc...', 'incul892_root', 'incul892_inculc...', '')
+#5 {main}
+  thrown in /home/incul892/public_html/model/Conexcao.php on line 15
+[18-Nov-2013 01:23:27] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[18-Nov-2013 01:45:33] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[18-Nov-2013 02:08:31] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[18-Nov-2013 02:10:27] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[18-Nov-2013 11:45:30] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[18-Nov-2013 13:19:46] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[18-Nov-2013 15:58:17] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[18-Nov-2013 19:27:53] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[18-Nov-2013 23:56:28] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[19-Nov-2013 12:32:59] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[19-Nov-2013 17:14:23] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[20-Nov-2013 01:17:43] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[20-Nov-2013 23:07:00] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[21-Nov-2013 00:49:39] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
+[21-Nov-2013 01:13:42] PHP Fatal error:  Class name must be a valid object or a string in /home/incul892/public_html/control/Controlador.php on line 182
