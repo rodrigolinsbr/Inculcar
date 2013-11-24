@@ -3,7 +3,7 @@
       <div class="container-narrow">
 
        
-         
+    <!-- Informacao select -->
          <div class="span12 infobase">
             <h1>Universidade Federal Rural de Pernambuco</h1>
             <table>
@@ -28,7 +28,7 @@
 
 
 
-  
+  <!-- Mapa falta pegar lat e logi -->
       <div id="mapa"></div>
         <script>
         var x=document.getElementById("mapa");
@@ -52,7 +52,7 @@
             window.addEventListener("load",getLocation,true);
 
         </script> 
-  
+  <!-- Tabs -->
    <div class="container-narrow">
  <div class="span12 tabs">
     <div class="tabContainer" >
@@ -63,18 +63,46 @@
           <li id="tab4" onclick="tabs(this);"><a href="#"><img src="imagens/road.svg" onerror="this.src='road.png'">  Estrutura de acessibilidade</a></li>
           <li id="tab5" onclick="tabs(this);"><a href="#"><img src="imagens/accessibility.svg" onerror="this.src='accessibility.png'">  Acessibilidade do Aluno</a></li>
         </ul>
+     
     </div>
- <div id="tabContent" >
-  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+<div id="tabContent" >
+  Carregando...
+</div> 
+<!-- Inicio conteudo Tabs -->
+ <div id="tab1Content"  style="display:none;" >
+  informações aba 1<br>
+  kkkkkLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
+  type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
+  of Lorem Ipsum(Rodrigo).
 </div>
- 
- <div id="tab1Content" style="display:none;">
-  kkkkkLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum(Rodrigo).
+<div id="tab2Content" style="display:none;">
+informações aba 2<br>
+  kkkkkLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
+  type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
+  of Lorem Ipsum(Rodrigo).
+    kkkkkLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a 
+  type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, 
+  remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing 
+  Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions 
+  of Lorem Ipsum(Rodrigo).
 </div>
-<div id="tab2Content" style="display:none;"><img src="http://www.digimantra.com/digimantra_ad_125_125.png" alt="digimantra logo" /></div>
-<div id="tab3Content" style="display:none;">The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</div>
-<div id="tab4Content" style="display:none;">teste</div>
-<div id="tab5Content" style="display:none;">teste 5</div>
+<div id="tab3Content" style="display:none;">
+informações aba 3<br>
+  The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</div>
+<div id="tab4Content" style="display:none;">
+informações aba 4<br>
+  teste</div>
+<div id="tab5Content" style="display:none;">
+informações aba 5<br>
+  teste 5</div>
+
 
 <script type="text/javascript">
   function tabs(x)
@@ -85,7 +113,7 @@
     {
       lis[i].className=""; //removes the classname from all the LI
     }
-    //x.className="selected"; //the clicked tab gets the classname selected
+    x.className="selected"; //the clicked tab gets the classname selected
     x.className="active"; //the clicked tab gets the classname selected
     var res=document.getElementById("tabContent");  //the resource for the main tabContent
     var tab=x.id;
@@ -113,8 +141,11 @@
  
     }
   }
- 
+ var res=document.getElementById("tabContent");  //the resource for the main tabContent
+ res.innerHTML=document.getElementById("tab1Content").innerHTML;
 </script>
+
+<!-- Facebook forum -->
 <div class="span12">
   <h5> <i class="icon-comment"></i> Deixe seus comentários</h5>
 </div>

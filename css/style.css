@@ -103,6 +103,8 @@
     padding:0px;
     position:relative;
     top:1px;}
+     .tabContainer .digiTabs a{
+    color: #000}
   .tabContainer .digiTabs li{
     float:left;
     padding:0px!important;
@@ -123,4 +125,5 @@
     float:left;
     margin-bottom:10px;
     border-bottom: 1px solid #E1E1E1;
+    border-top: 1px solid #E1E1E1;
     width:93%;}
