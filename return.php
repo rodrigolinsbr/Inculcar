@@ -30,6 +30,7 @@
 
   <!-- Mapa falta pegar lat e logi -->
       <div id="mapa"></div>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
         <script>
         var x=document.getElementById("mapa");
         function getLocation()
@@ -43,14 +44,30 @@
         function showPosition(position)
           {
 
-          x.innerHTML='<iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=loc:'+position.coords.latitude+','+ position.coords.longitude +'&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll='+position.coords.latitude+','+position.coords.longitude+'&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?q=loc:'+position.coords.latitude+','+ position.coords.longitude +'&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll='+position.coords.latitude+','+ position.coords.longitude +'&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>';
+          //x.innerHTML='<iframe width="100%" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=loc:'+position.coords.latitude+','+ position.coords.longitude +'&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll='+position.coords.latitude+','+position.coords.longitude+'&amp;output=embed"></iframe><br /><small><a href="http://maps.google.com/maps?q=loc:'+position.coords.latitude+','+ position.coords.longitude +'&amp;ie=UTF8&amp;t=m&amp;z=14&amp;ll='+position.coords.latitude+','+ position.coords.longitude +'&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>';
           
-        //alert("Latitude: " + position.coords.latitude+"Longitude: " + position.coords.longitude);
+        alert("Latitude: " + position.coords.latitude+"Longitude: " + position.coords.longitude);
         //x.innerHTML="Latitude: " + position.coords.latitude + 
         //"<br>Longitude: " + position.coords.longitude;  
           }
-            window.addEventListener("load",getLocation,true);
+            //window.addEventListener("load",getLocation,true);
+// =============================================================
+function initialize() {
+  var myLatlng = new google.maps.LatLng(-8.032243,-34.931484);
+  var mapOptions = {
+    zoom: 4,
+    center: myLatlng
+  }
+  var map = new google.maps.Map(document.getElementById('mapa'), mapOptions);
 
+  var marker = new google.maps.Marker({
+      position: myLatlng,
+      map: map,
+      title: 'Hello World!'
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
         </script> 
   <!-- Tabs -->
    <div class="container-narrow">

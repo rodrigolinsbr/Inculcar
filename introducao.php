@@ -27,67 +27,67 @@
        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
        <hr>
        <form>
+        <h4>Pesquisa por peso:</h4>
         <table>
             <tr>
-            <td>Grau</td>
+            <td>Estrutura</td>
             <td>
-              <label class="checkbox inline">
-              <input type="checkbox"> Ensino Infantil
-              </label>
-              <label class="checkbox inline">
-              <input type="checkbox"> Ensino Médio
-              </label>
-               <label class="checkbox inline">
-              <input type="checkbox"> Ensino Superior
-              </label>
+               <select>
+              <option>Peso 1</option>
+              <option>Peso 2</option>
+              <option>Peso 3</option>
+              <option>Peso 4</option>
+              <option>Peso 5</option>
+            </select>
             </td>
           </tr>
           <tr>
-            <td>Nível</td>
+            <td>Tecnologias</td>
             <td>
-              <label class="checkbox inline">
-              <input type="checkbox"> Particular
-              </label>
-               <label class="checkbox inline">
-              <input type="checkbox"> Pública
-              </label>
+              <select>
+              <option>Peso 1</option>
+              <option>Peso 2</option>
+              <option>Peso 3</option>
+              <option>Peso 4</option>
+              <option>Peso 5</option>
+              </select>
             </td>
           </tr>
           <tr>
             <td>Estrutura</td>
             <td>
               <select>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+             <option>Peso 1</option>
+              <option>Peso 2</option>
+              <option>Peso 3</option>
+              <option>Peso 4</option>
+              <option>Peso 5</option>
               </select>
             </td>
           
           </tr>
           <tr>
-            <td>Nível dos professores</td>
+            <td>Estrutura de acessibilidade</td>
             <td>
               <select>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+             <option>Peso 1</option>
+              <option>Peso 2</option>
+              <option>Peso 3</option>
+              <option>Peso 4</option>
+              <option>Peso 5</option>
               </select>
             </td>
           
           </tr>
                 <tr>
-            <td>Atividades extras</td>
+            <td>Acessibilidade do Aluno</td>
             <td>
               <select>
-              <option>Judô</option>
-              <option>Volei</option>
-              <option>Capoeira</option>
-              <option>Robótica</option>
-              <option>Educação física</option>
+             <option>Peso 1</option>
+              <option>Peso 2</option>
+              <option>Peso 3</option>
+              <option>Peso 4</option>
+              <option>Peso 5</option>
               </select>
             </td>
           
@@ -96,7 +96,47 @@
        </form>
 
  
-<button class="btn btn-warning cancelar">Cancelar</button>
+
+<button class="btn btn-warning usar">Pesquisar</button>
+<hr>
+<form>
+        <h4>Pesquisa Deficiência:</h4>
+        <table>
+            <tr>
+            <td>Deficiencia</td>
+            <td>  
+               <select>
+              <option>Visual</option>
+              <option>Motor</option>
+              <option>Locomoção</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            </td>
+          </tr>
+         
+        </table>
+       </form>
+
+ 
+
+<button class="btn btn-warning usar">Pesquisar</button>
+<hr>
+<form >
+        <h4>Busca por nome:</h4>
+        <table>
+            <tr>
+            <td>Nome</td>
+            <td>
+                <input type="text">
+            </td>
+          </tr>
+         
+        </table>
+       </form>
+
+ 
+<button class="btn btn-warning cancelar">Voltar</button>
 <button class="btn btn-warning usar">Pesquisar</button>
 </div>
 
