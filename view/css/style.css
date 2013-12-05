@@ -1,0 +1,129 @@
+  body {
+       
+        padding-top: 40px;
+        
+      }
+      .img_tabbte{width: 300px;
+      	padding-right: 10px;}
+
+      /* Custom container */
+      .container_line{
+      	padding-bottom: 30px;
+      	width: 100%;
+        min-height: 335px;
+      	/*background-color: #FFFCF1;*/
+        background-image: url("../imagens/dimension/dimension.png");
+     
+      	z-index: -1;
+      	border-bottom: 1px solid #ececec;
+
+      }
+
+       .container_line2{
+        padding-bottom: 30px;
+        width: 100%;
+        min-height: 180px;
+        /*background-color: #FFFCF1;*/
+        background-image: url("../imagens/dimension/dimension.png");
+     
+        z-index: -1;
+        border-bottom: 1px solid #ececec;
+
+      }
+      .container-narrow {
+        margin: 0 auto;
+        max-width: 900px;
+
+      }
+      .conteudo{
+        margin: 0 auto;
+        max-width: 900px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+
+      /* Main marketing message and sign up button */
+      .jumbotron {
+        margin: 60px 0;
+        text-align: center;
+      }
+      .jumbotron h1 {
+        font-size: 72px;
+        line-height: 1;
+      }
+      .jumbotron .btn {
+        font-size: 21px;
+        padding: 14px 24px;
+      }
+
+      /* Supporting marketing content */
+      .marketing {
+        margin: 60px 0;
+      }
+      .marketing p + h4 {
+        margin-top: 28px;
+      }
+    .ferramenta{
+      display: none;
+    }
+
+    /*result*/
+    #mapa{
+      
+      border: 2px #ededed;
+      display: none;
+    }
+    
+    .colocacao{
+      font-size: 90px;
+      
+
+    }
+    .tabs{
+      padding-top: 50px;
+    }
+    .infobase{
+      padding-top: 90px;
+    }
+
+    /*Abas*/
+
+
+
+  .tabContainer{
+    margin:0px 0;
+    width:900px;
+  }
+  .tabContainer .digiTabs{
+    list-style:none;
+    display:block;
+    overflow:hidden;
+    margin:0;
+    padding:0px;
+    position:relative;
+    top:1px;}
+     .tabContainer .digiTabs a{
+    color: #000}
+  .tabContainer .digiTabs li{
+    float:left;
+    padding:0px!important;
+    cursor:pointer;
+    border-bottom:none;
+    margin-right:10px;
+   /* font-family:verdana;
+    font-size:.8em;*/
+    /*font-weight:bold;*/
+    color:#fff;}
+  .tabContainer .digiTabs .active{
+    background-color:#fff;
+    color:#393939;}
+  #tabContent{
+    padding:10px;
+    background-color:#fff;
+    overflow:hidden;
+    float:left;
+    margin-bottom:10px;
+    border-bottom: 1px solid #E1E1E1;
+    border-top: 1px solid #E1E1E1;
+    width:93%;}
