@@ -10,7 +10,9 @@
 <link rel="stylesheet" type="text/css" href="http://www.inculcar.com.br/view/css/style.css">
 <link rel="shortcut icon" href="http://www.inculcar.com.br/view/imagens/marca.png" type="image/x-icon" />
 <body>
-
+ <style>
+     
+    </style>
 <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
     <div class="container">

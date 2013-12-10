@@ -113,21 +113,20 @@
             <tr>
             <td>Deficiencia</td>
             <td>  
-               <select>
-                    <option>Deficiência</option>
-                    <option>Cegueira</option>
-                    <option>Baixa Visao</option>
-                    <option>Surdez</option>
-                    <option>Baixa Audicao</option>        
-                    <option>Surdo Cegueira</option>
-                    <option>Física</option>
-                    <option>Intelectual</option>
-                    <option>Múltipla</option>
-                    <option>Autismo</option>
-                    <option>Asperger</option>
-                    <option>Rett</option>
-                    <option>Desintegrativo</option>
-                    <option>Superdotação</option>
+                <select name="deficiencia">
+                    <option value="cegeuira">Cegueira</option>
+                    <option value="baixaVisao" >Baixa Visao</option>
+                    <option value="surdez" >Surdez</option>
+                    <option value="baixaAudicao" >Baixa Audicao</option>        
+                    <option value="surdoCegeuira">Surdo Cegueira</option>
+                    <option value="fisica" >Física</option>
+                    <option value="intelectual">Intelectual</option>
+                    <option value="multipla">Múltipla</option>
+                    <option value="autismo">Autismo</option>
+                    <option value="aspeger">Asperger</option>
+                    <option value="rett">Rett</option>
+                    <option value="desintregrativo">Desintegrativo</option>
+                    <option value="superdotacao">Superdotação</option>
             </select>
             </td>
           </tr>

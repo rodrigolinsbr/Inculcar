@@ -19,6 +19,7 @@ class Escola extends IAbstractInterface implements IIntfacePagina {
         parent::__construct($server, $banco, $login, $senha, $parametros);
         $this->gerarPagina();
         $this->normalizaVirgula();
+        $this->nomalizaLatitudeLongitude();
     }
 
 
@@ -91,6 +92,12 @@ class Escola extends IAbstractInterface implements IIntfacePagina {
         
     }
     
+  public function nomalizaLatitudeLongitude(){
+      
+      $this->escola->latitude = str_replace(",",".",$this->escola->latitude);
+      $this->escola->longitude = str_replace(",",".",$this->escola->longitude);
+     
+  }
     
 }
 

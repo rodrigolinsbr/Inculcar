@@ -69,10 +69,15 @@
     }
 
     /*result*/
+  .localizacao{
+    display: none;
+  }
     #mapa{
       
       border: 2px #ededed;
-      display: none;
+     
+      height: 500px;
+      width: 100%
     }
     
     .colocacao{
