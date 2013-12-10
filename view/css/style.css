@@ -79,7 +79,12 @@
       height: 500px;
       width: 100%
     }
-    
+    .nota_estrutura{
+      display: none;
+    }
+    .nota_tecnologia{
+      display: none;
+    }
     .colocacao{
       font-size: 90px;
       
